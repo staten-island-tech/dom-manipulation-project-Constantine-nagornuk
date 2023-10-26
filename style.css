@@ -1,6 +1,6 @@
 .card{
 
-    height: 35vh;
+    height: 39vh;
     width: 25vw;
     background-color: #008B8B;
     margin: auto;
@@ -11,6 +11,6 @@
 
 .Image{
 
-    height: 361px;
-    width: auto;
+    height: 80%;
+    width: 100%;
 }
