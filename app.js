@@ -1,18 +1,17 @@
-/* const DOMselectors = {
-    button : document.getElementById("BTN"),
-    box: document.getElementById("CTN-BOX"),
-    input: document.getElementById("input")
+
+    const DOMselectors = {
+        button: document.getElementById("btn"),
+        input: document.getElementById("input"),
+        container: document.getElementById("CTN"),
+        card: document.getElementsByClassName("card"),
+        name: document.getElementsByClassName("Lego#") 
     }
-    
-    
-    
-    DOMselectors.button.addEventListener("click" , function(){
-        let input = DOMselectors.input.value;
-        DOMselectors.box.insertAdjacentElement("afterend", <p>`${input}`</p>)
-    
+
+
+
+    DOMselectors.button.addEventListener("click", function(){
+        let input = DOMselectors.input.value
+        DOMselectors.name
         
-    
-    
-    
+
     })
-     */
