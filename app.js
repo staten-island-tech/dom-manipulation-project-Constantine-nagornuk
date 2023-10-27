@@ -1,17 +1,19 @@
 
     const DOMselectors = {
-        button: document.getElementById("btn"),
-        input: document.getElementById("input"),
-        container: document.getElementById("CTN"),
-        card: document.getElementsByClassName("card"),
-        name: document.getElementsByClassName("Lego#") 
+       title: document.getElementById("Title"),
+       Image:document.getElementById("Image"),
+       Set_Number: document.getElementById("Set_Number"),
+       sumbit:document.querySelector("#form"),
+       ctn: document.getElementsByClassName("CTN"),
+       card: document.getElementsByClassName("card"),
+       Card_Image: document.getElementsByClassName("Image"),
+       card_set_number: document.getElementById("number_of_set"),
+       delete: document.getElementById("Delete")
     }
 
 
-
-    DOMselectors.button.addEventListener("click", function(){
-        let input = DOMselectors.input.value
-        DOMselectors.name
-        
+    DOMselectors.sumbit.addEventListener("submit",function(e){
+        e.preventDefault()
 
     })
+
