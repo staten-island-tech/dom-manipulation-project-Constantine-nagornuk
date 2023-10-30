@@ -1,19 +1,20 @@
 
     const DOMselectors = {
-       title: document.getElementById("Title"),
-       Image:document.getElementById("Image"),
-       Set_Number: document.getElementById("Set_Number"),
-       sumbit:document.querySelector("#form"),
-       ctn: document.getElementsByClassName("CTN"),
-       card: document.getElementsByClassName("card"),
-       Card_Image: document.getElementsByClassName("Image"),
-       card_set_number: document.getElementById("number_of_set"),
-       delete: document.getElementById("Delete")
+      sumbit: document.querySelector("#sumbit1"),
+        set: document.querySelector("#Set_Number"),
+        image: document.querySelector("#Image"),
+        title: document.querySelector('#Title'),
+      box: document.getElementById("CTN")
     }
 
+DOMselectors.sumbit.addEventListener("click", function(e){
+    e.preventDefault()
 
-    DOMselectors.sumbit.addEventListener("submit",function(e){
-        e.preventDefault()
 
-    })
+    let x = DOMselectors.set.value
+    let z = DOMselectors.image.value
+    let y = DOMselectors.title.value
+    DOMselectors.box.insertAdjacentHTML("beforeend", `<p> ${ x} , ${z} , ${y}</p>` )
 
+
+}) 
