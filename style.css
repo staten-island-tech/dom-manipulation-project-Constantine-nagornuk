@@ -7,11 +7,39 @@
     text-align: center;
     border: 10px solid #000000;
     padding: 15px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 23%;
+    margin-bottom: 25px;
 }
 
 .Image{
 
     height: 60%;
     width: 100%;
+}
+
+.CTN{
+    margin: 1rem , auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.Input_things{  
+    border: 10px solid #d21313;
+    text-align: center;
+    background-color: #1e85c6;
+    margin-bottom: 30px;
+
+}
+
+.Header{
+    text-align: center;
+    font-size: 57px;
+    margin-top: 32px;
 }
